@@ -1,0 +1,28 @@
+#container{
+	width: 1140px;
+}
+#blog-post-container{
+	width: 75%;	
+	float: left;
+}
+.blog-post{
+	position: relative;
+}
+#other-posts{
+	width: 25%;	
+	float: left;
+	position: fixed;
+	top:20px;
+	right: 0;	
+}
+
+#author-box
+{
+	
+}
+.date {
+	position: absolute;
+	right: 60px;
+	top: 0;
+	color: lightblue;
+}

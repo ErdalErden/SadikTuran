@@ -1,0 +1,49 @@
+body{
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#container{
+	width: 1140px;
+	
+}
+#blog-post-container{
+	width: 75%;	
+	float: left;
+}
+
+#other-posts{
+	width: 25%;	
+	float: left;
+}
+
+#author-box
+{
+	
+}
+
+.tags {
+	margin: 0;
+	padding: 0;
+}
+
+.tags li {
+	display: inline;
+	list-style: none;
+	margin-right: 5px;
+	background-color: #e2e2e2;
+	text-align: center;
+	padding: 5px 10px;
+	border-radius: 10px;
+}
+.tags li:hover {
+	background-color: #d3d3d3;
+}
+
+.tags li a {
+	text-decoration: none;
+	color: blueviolet;
+}
+
+.tags li a:hover {
+	color:red;
+}
