@@ -22,7 +22,21 @@ const heightAda = 1.50;
 indexAda = (kgAda) / (heightAda * heightAda);
 indexCan = (kgCan) / (heightCan * heightCan);
 
-console.log(indexAda, indexCan);
+console.log(indexAda.toFixed(), indexCan.toFixed());
 
 let adaHigherIndex = indexAda > indexCan;
-console.log("Ada'nın indeksi Can'ın indeksinden daha büyük");
+let canHigherIndex = indexCan > indexAda;
+
+console.log("Ada'nın indeksi Can'ın indeksinden daha büyük : " + adaHigherIndex);
+
+console.log("Can'ın indeksi Ada'nın indeksinden daha büyük : " + canHigherIndex);
+
+let adaZayif = (indexAda > 0) && (indexAda <= 18.4);
+let adaNormal = (indexAda >= 18.5) && (indexAda <= 24.9);
+let adaKilolu = (indexAda >= 25.0) && (indexAda <= 29.9);
+let adaSisman = (indexAda >= 30.0) && (indexAda <= 34.9);
+
+console.log('Ada zayıf :'  + adaZayif);
+console.log('Ada Normal :'  + adaNormal);
+console.log('Ada kilolu :'  + adaKilolu);
+console.log('Ada Şişman :'  + adaSisman);
