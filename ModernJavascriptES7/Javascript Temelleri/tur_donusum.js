@@ -26,8 +26,8 @@ val = Number(false); // result 0
 val = Number(null);
 
 // NaN (Not a number)
-val = Number('a');
-val = Number([1,2,3,4])
+val = Number('a'); // result Not a Number (NaN)
+val = Number([1,2,3,4]) // result Not a Number (NaN)
 
 // parseInt
 val = parseInt('15');
