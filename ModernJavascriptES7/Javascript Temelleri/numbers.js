@@ -48,6 +48,25 @@ console.log(val);   //3
 val = Math.floor(6.8);
 console.log(val);   //6
 
+val = Math.sqrt(64);
+console.log(val);   //8
 
+val = Math.abs(-100);
+console.log(val);   //100
+
+val = Math.min(23,8,5,9,45,89);
+console.log(val);   //5
+
+val = Math.max(23,8,5,9,45,89);
+console.log(val);   //89
+
+val = Math.floor(Math.random()*10);
 console.log(val);
+
+val = Math.floor(Math.random()*100+1);
+console.log(val);
+
+val = Math.floor(((Math.random()*1000+1)*908)*743);
+console.log(val);
+
 console.log(typeof val);
