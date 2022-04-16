@@ -6,10 +6,6 @@ const yearOfBirth = 2015;
 
 let val;
 
-val = 'My name is '+fullName+
-    ' I am '+(2022-yearOfBirth)+ ' years old '+
-    ' and I live in '+city;
-
 
 // Ternary Operator
 
